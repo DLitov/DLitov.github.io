@@ -20,6 +20,6 @@ jobs:
       - name: Check for Broken Links
         uses: lycheeverse/lychee-action@v2
         with:
+          args: --exclude "https://www.facebook.com/dimitar.litov,https://www.linkedin.com/in/dimitar-litov-442904139/,https://dlitov.github.io/images/project.jpg,https://dlitov.github.io/favicon.ico,https://raw.githubusercontent.com/DLitov/DLitov.github.io/main/CV-Dimitar%20Litov-new.doc"
           fail: true
-          args: --exclude "https://dlitov.github.io/images/project.jpg,https://dlitov.github.io/favicon.ico,https://raw.githubusercontent.com/DLitov/DLitov.github.io/main/CV-Dimitar%20Litov-new.doc"
 
