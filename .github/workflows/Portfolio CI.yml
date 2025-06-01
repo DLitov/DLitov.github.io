@@ -20,5 +20,5 @@ jobs:
       - name: Check for Broken Links
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --verbose https://dlitov.github.io/ --exclude "https://www.facebook.com/dimitar.litov https://www.linkedin.com/in/dimitar-litov-442904139/ https://dlitov.github.io/images/project.jpg https://dlitov.github.io/favicon.ico https://raw.githubusercontent.com/DLitov/DLitov.github.io/main/CV-Dimitar%20Litov-new.doc https://formspree.io/f/xpwdvnno"
           fail: true
+          args: --verbose https://dlitov.github.io/ --exclude "https://dlitov.github.io/favicon.ico https://formspree.io/f/xpwdvnno https://www.linkedin.com/in/dimitar-litov-442904139/ https://www.facebook.com/dimitar.litov https://dlitov.github.io/images/project.jpg https://raw.githubusercontent.com/DLitov/DLitov.github.io/main/CV-Dimitar%20Litov-new.doc"
