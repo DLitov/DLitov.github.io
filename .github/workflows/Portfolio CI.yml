@@ -21,4 +21,4 @@ jobs:
         uses: lycheeverse/lychee-action@v2
         with:
           fail: true
-          args: --verbose https://dlitov.github.io/ --ignore https://dlitov.github.io/favicon.ico https://formspree.io/f/xpwdvnno https://www.linkedin.com/in/dimitar-litov-442904139/ https://www.facebook.com/dimitar.litov https://dlitov.github.io/images/project.jpg https://raw.githubusercontent.com/DLitov/DLitov.github.io/main/CV-Dimitar%20Litov-new.doc
+          args: --verbose https://dlitov.github.io/ --exclude https://dlitov.github.io/favicon.ico https://formspree.io/f/xpwdvnno https://www.linkedin.com/in/dimitar-litov-442904139/ https://www.facebook.com/dimitar.litov https://dlitov.github.io/images/project.jpg https://raw.githubusercontent.com/DLitov/DLitov.github.io/main/CV-Dimitar%20Litov-new.doc
